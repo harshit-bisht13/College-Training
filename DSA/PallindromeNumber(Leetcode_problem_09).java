@@ -6,9 +6,9 @@ public class PallindromeNumber(Leetcode_problem_09) {
             return false;
         }
         while(x!=0){
-            int num=x%10;//12
+            int num=x%10;
             rev=rev*10+num;
-            x=x/10;//12
+            x=x/10;
         }
         return temp==rev;
     }
