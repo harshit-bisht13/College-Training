@@ -13,4 +13,12 @@ public class SecondLargest {
         }
         return secondL==Integer.MIN_VALUE?-1:secondL;
     }
+    public static void main(String[] args) {
+        int[] arr = {12, 35, 1, 10, 34, 1};
+
+        SecondLargest sol = new SecondLargest();
+        int result = sol.getSecondLargest(arr);
+
+        System.out.println("Second largest element: " + result);
+    }
 }
