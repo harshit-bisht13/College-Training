@@ -1,5 +1,8 @@
 public class Sqrt(x){
     public int mySqrt(int x) {
+        if(x<2){
+            return x;
+        }
 
             //BRUTE-FORCE ARROACH
         // int ans=1;
